@@ -2,7 +2,7 @@ var readlineSync = require("readline-sync");
 
 var score = 0;
 
-// data of high score
+
 var highScores = [
   {
     name: "Somesh",
@@ -15,7 +15,7 @@ var highScores = [
   },
 ]
 
-// array of objects
+
 var questions = [{
   question: "Who's known as THE DOCTOR in MotoGP?",
   answer: "Valentino Rossi"
@@ -43,7 +43,7 @@ function welcome() {
 }
 
 
-// play function
+
 function play(question, answer) {
   var userAnswer = readlineSync.question(question);
 
